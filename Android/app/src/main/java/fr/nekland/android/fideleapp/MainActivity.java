@@ -200,7 +200,7 @@ public class MainActivity extends AppCompatActivity
 
     private void promptDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Title");
+        builder.setTitle("Entrez le code fidélité");
 
 // Set up the input
         final EditText input = new EditText(this);
@@ -209,14 +209,14 @@ public class MainActivity extends AppCompatActivity
         builder.setView(input);
 
 // Set up the buttons
-        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton("Valider", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 String code = input.getText().toString();
                 MainActivity.this.httpGet("/api/ping/" + code);
             }
         });
-        builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+        builder.setNegativeButton("Annuler", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.cancel();
