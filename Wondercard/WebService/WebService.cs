@@ -1,4 +1,5 @@
 ﻿using Microsoft.ServiceFabric.Services;
+using Wondercard.Client.Webapi;
 
 namespace Wondercard.Client.Gateway
 {

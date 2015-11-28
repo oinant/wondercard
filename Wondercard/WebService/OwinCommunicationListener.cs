@@ -7,6 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Owin.Hosting;
 using Microsoft.ServiceFabric.Services;
+using Wondercard.Client.Webapi;
 
 namespace Wondercard.Client.Gateway
 {

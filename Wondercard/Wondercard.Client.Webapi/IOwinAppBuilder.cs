@@ -1,6 +1,6 @@
 ﻿using Owin;
 
-namespace Wondercard.Client.Gateway
+namespace Wondercard.Client.Webapi
 {
     public interface IOwinAppBuilder
     {

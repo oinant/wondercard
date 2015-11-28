@@ -1,6 +1,6 @@
 ﻿using System.Web.Http;
 
-namespace Wondercard.Client.Gateway.Controllers
+namespace Wondercard.Client.Webapi.Controllers
 {
     /// <summary>
     ///     Default controller.

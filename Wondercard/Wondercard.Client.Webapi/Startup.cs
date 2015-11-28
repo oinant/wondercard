@@ -1,8 +1,7 @@
-﻿
-using System.Web.Http;
+﻿using System.Web.Http;
 using Owin;
 
-namespace Wondercard.Client.Gateway
+namespace Wondercard.Client.Webapi
 {
     public class Startup : IOwinAppBuilder
     {

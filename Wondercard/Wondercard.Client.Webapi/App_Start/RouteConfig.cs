@@ -1,6 +1,6 @@
 ﻿using System.Web.Http;
 
-namespace Wondercard.Client.Gateway
+namespace Wondercard.Client.Webapi
 {
     public static class RouteConfig
     {

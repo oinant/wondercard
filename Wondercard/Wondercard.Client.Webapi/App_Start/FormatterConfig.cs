@@ -1,7 +1,7 @@
 ﻿using System.Net.Http.Formatting;
 using Newtonsoft.Json;
 
-namespace Wondercard.Client.Gateway
+namespace Wondercard.Client.Webapi
 {
     public static class FormatterConfig
     {
